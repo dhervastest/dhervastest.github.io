@@ -90,7 +90,7 @@ p{
   background-image: url(fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 500px;
   width: inherit;
   background-color: #454444;
   /*opacity: 0.6;*/
@@ -123,7 +123,7 @@ p{
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
-.container{
+.container, .footer{
   /*opacity: 0.7;*/
   font-family: pacifico;
   border-top-left-radius: 6px;
@@ -138,4 +138,18 @@ p{
 
 .experience-list{
   padding-left: 10%;
+}
+
+.footer{
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  margin-top: 2%;
+  text-align: center;
+  padding: inherit;
+}
+
+.footer p{
+  font-size: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
